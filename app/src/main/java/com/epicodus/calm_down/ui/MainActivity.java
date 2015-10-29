@@ -13,28 +13,21 @@ import com.epicodus.calm_down.SponsorsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button mEnrollButton;
-    private Button mSponsorsButton;
-    private Button mNonProfitPartnersButton;
+    private Button mDebugButton;
+    private Button mOttersButton;
+    private Button mGeoButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mEnrollButton = (Button) findViewById(R.id.debugButton);
-        mSponsorsButton = (Button) findViewById(R.id.ottersButton);
-        mNonProfitPartnersButton = (Button) findViewById(R.id.geoButton);
+        mDebugButton = (Button) findViewById(R.id.debugButton);
+        mOttersButton = (Button) findViewById(R.id.ottersButton);
+        mGeoButton = (Button) findViewById(R.id.geoButton);
 
-        mNonProfitPartnersButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               Intent intent = new Intent(MainActivity.this, NonProfitActivity.class);
-                startActivity(intent);
-            }
-        });
 
-        mEnrollButton.setOnClickListener(new View.OnClickListener() {
+        mDebugButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, EnrollActivity.class);
@@ -42,10 +35,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mSponsorsButton.setOnClickListener(new View.OnClickListener() {
+        mOttersButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SponsorsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mGeoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, NonProfitActivity.class);
                 startActivity(intent);
             }
         });
