@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Break the Code</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="info">Calm down is an app designed to help you de-stress. None of this is medical advice - just some fun options, suggestions, and reminders for more hectic days. Besides - was anyone\'s day ever made worse by looking at some kittens?</string>
+    <string name="title_activity_non_profit">NonProfitActivity</string>
+    <string name="title_activity_enroll">EnrollActivity</string>
+    <string name="title_activity_sponsors">SponsorsActivity</string>
+</resources>

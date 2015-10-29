@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="feeling stressed?"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:height="125dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#a7ff717b"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="non profit partners"
+        android:id="@+id/nonProfitButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#c1ff3739"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/sponsorsButton"
+        android:layout_above="@+id/nonProfitButton"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#b9ff4b30"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enrollButton"
+        android:layout_above="@+id/sponsorsButton"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#cdff8d57"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="maybe we can help."
+        android:id="@+id/infoLabel"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#dd838184"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_alignTop="@+id/info"
+        android:layout_alignLeft="@+id/infoLabel"
+        android:layout_alignStart="@+id/infoLabel"
+        android:layout_alignBottom="@+id/info">
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:id="@+id/info"
+        android:singleLine="false"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="6dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>
