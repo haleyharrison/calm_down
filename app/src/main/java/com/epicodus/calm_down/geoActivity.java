@@ -3,12 +3,11 @@ package com.epicodus.calm_down;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SponsorsActivity extends AppCompatActivity {
+public class geoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sponsors);
+        setContentView(R.layout.activity_geo);
     }
-
 }

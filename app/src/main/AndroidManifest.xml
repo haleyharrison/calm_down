@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.epicodus.calm_down.NonProfitActivity"
+            android:name=".geoActivity"
             android:label="@string/title_activity_non_profit"
             android:parentActivityName="com.epicodus.calm_down.ui.MainActivity" >
             <meta-data
@@ -25,7 +25,7 @@
                 android:value="com.epicodus.calm_down.ui.MainActivity" />
         </activity>
         <activity
-            android:name="com.epicodus.calm_down.EnrollActivity"
+            android:name=".debugActivity"
             android:label="@string/title_activity_enroll"
             android:parentActivityName="com.epicodus.calm_down.ui.MainActivity" >
             <meta-data
@@ -33,7 +33,7 @@
                 android:value="com.epicodus.calm_down.ui.MainActivity" />
         </activity>
         <activity
-            android:name="com.epicodus.calm_down.SponsorsActivity"
+            android:name=".ottersActivity"
             android:label="@string/title_activity_sponsors"
             android:parentActivityName="com.epicodus.calm_down.ui.MainActivity" >
             <meta-data

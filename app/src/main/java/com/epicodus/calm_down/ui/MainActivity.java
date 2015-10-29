@@ -6,10 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.epicodus.calm_down.EnrollActivity;
-import com.epicodus.calm_down.NonProfitActivity;
+import com.epicodus.calm_down.debugActivity;
+import com.epicodus.calm_down.geoActivity;
 import com.epicodus.calm_down.R;
-import com.epicodus.calm_down.SponsorsActivity;
+import com.epicodus.calm_down.ottersActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         mDebugButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, EnrollActivity.class);
+                Intent intent = new Intent(MainActivity.this, debugActivity.class);
                 startActivity(intent);
             }
         });
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         mOttersButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SponsorsActivity.class);
+                Intent intent = new Intent(MainActivity.this, ottersActivity.class);
                 startActivity(intent);
             }
         });
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         mGeoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, NonProfitActivity.class);
+                Intent intent = new Intent(MainActivity.this, geoActivity.class);
                 startActivity(intent);
             }
         });
