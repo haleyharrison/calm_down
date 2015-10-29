@@ -1,7 +1,7 @@
-package com.epicodus.breakthecode.models;
+package com.epicodus.calm_down.models;
 
 
-import com.epicodus.breakthecode.R;
+import com.epicodus.calm_down.R;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.epicodus.breakthecode;
+package com.epicodus.calm_down;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

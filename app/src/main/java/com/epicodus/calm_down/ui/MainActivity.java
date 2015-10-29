@@ -1,4 +1,4 @@
-package com.epicodus.breakthecode.ui;
+package com.epicodus.calm_down.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,10 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.epicodus.breakthecode.EnrollActivity;
-import com.epicodus.breakthecode.NonProfitActivity;
-import com.epicodus.breakthecode.R;
-import com.epicodus.breakthecode.SponsorsActivity;
+import com.epicodus.calm_down.EnrollActivity;
+import com.epicodus.calm_down.NonProfitActivity;
+import com.epicodus.calm_down.R;
+import com.epicodus.calm_down.SponsorsActivity;
 
 public class MainActivity extends AppCompatActivity {
 

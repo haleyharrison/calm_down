@@ -1,4 +1,4 @@
-package com.epicodus.breakthecode.models;
+package com.epicodus.calm_down.models;
 
 
 public class Partner {
