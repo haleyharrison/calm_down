@@ -22,8 +22,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="non profit partners"
-        android:id="@+id/nonProfitButton"
+        android:text="find some calm"
+        android:id="@+id/geoButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/white"
@@ -32,9 +32,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/sponsorsButton"
-        android:layout_above="@+id/nonProfitButton"
+        android:text="otters to the rescue"
+        android:id="@+id/ottersButton"
+        android:layout_above="@+id/geoButton"
         android:layout_centerHorizontal="true"
         android:backgroundTint="#b9ff4b30"
         android:textColor="@android:color/white"/>
@@ -42,11 +42,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/enrollButton"
-        android:layout_above="@+id/sponsorsButton"
+        android:id="@+id/debugButton"
+        android:layout_above="@+id/ottersButton"
         android:layout_centerHorizontal="true"
         android:backgroundTint="#cdff8d57"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:text="debugging your stress"/>
 
     <TextView
         android:layout_width="match_parent"
